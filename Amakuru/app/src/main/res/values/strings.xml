@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Amakuru</string>
+    <string name="search">Search</string>
+    <string name="name">Name</string>
+    <string name="the_description_of_the_news_sources">the description of the news sources</string>
+    <string name="country">Country</string>
+    <string name="category">Category</string>
+    <string name="language">Language</string>
+</resources>
