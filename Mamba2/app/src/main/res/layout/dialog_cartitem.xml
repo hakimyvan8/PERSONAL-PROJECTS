@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/vert1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="Back"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textAllCaps="true"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:gravity="start" />
+
+            <Button
+                android:id="@+id/checkoutBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_alignParentEnd="true"
+                android:text="Proceed to Order"
+                android:textColor="@color/white"
+                android:background="@drawable/rectangle_8"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/cartLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="Cart"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="25dp"
+                android:textAllCaps="true"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:gravity="start" />
+
+            <!--shop name-->
+            <TextView
+                android:id="@+id/NameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:text="Customer Name"
+                android:layout_below="@+id/cartLogo"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:gravity="start" />
+
+            <TextView
+                android:id="@+id/subTotalTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:text="Sub Total/"
+                android:layout_below="@+id/cartLogo"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="true"
+                android:layout_marginRight="100dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:gravity="start" />
+
+
+            <TextView
+                android:id="@+id/subTotalPriceTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:text="Rwf"
+                android:layout_below="@+id/cartLogo"
+                android:layout_toLeftOf="@+id/subTotalTv"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:gravity="start" />
+
+
+            <TextView
+                android:id="@+id/totalLabelTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Total Price/"
+                android:textStyle="bold"
+                android:layout_marginRight="100dp"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/totalTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/totalLabelTv"
+                android:text="Rwf"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/black"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/grey"/>
+
+        <!--show cart items-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cartItemsRv"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            tools:listitem="@layout/row_cartitem"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/softcolor"
+    android:backgroundTint="@color/float_transparent"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="362dp"
+        android:layout_height="87dp"
+        android:background="@color/softcolor"
+        android:backgroundTint="@color/softcolor"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+            android:drawableRight="@drawable/ic_product"
+            android:fontFamily="@font/light"
+            android:text="Accept Delivery"
+            android:textColor="@color/white"
+            app:icon="@drawable/ic_shop"
+            app:iconGravity="textEnd"
+            app:iconPadding="30dp"
+            app:iconTint="@color/white" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/light"
+            android:gravity="center"
+            android:text="accept order for delivery"
+            android:textColor="@color/persistent_search_view_background_dim_color" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Delivery Drop"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

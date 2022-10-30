@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_screen1">#795548</color>
+    <color name="bg_screen2">#795548</color>
+    <color name="bg_screen3">#795548</color>
+    <color name="white">#FFFFFF</color>
+    <color name="softcolor">#ecf0f3</color>
+    <color name="colorAccent">#023053</color>
+    <color name="colorbluelight">#60A2D5</color>
+    <color name="grey">#696E71</color>
+    <color name="greyLight">#C5C5C5</color>
+    <color name="black">#000000</color>
+    <color name="red">#E91E1E</color>
+    <color name="green">#0BA31E</color>
+    <color name="colorPrimary">#023053</color>
+    <color name="colorPrimaryDark">#023053</color>
+    <color name="colorPrimaryDarkz">#023053</color>
+    <color name="colorGray">#D5D1D0</color>
+
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mamba</string>
+    <string name="maize_meal">Maize Meal</string>
+    <string name="mamba">MAMBA</string>
+    <string name="bringing_the_markets_closer">Bringing the markets closer</string>
+    <string name="_9">9</string>
+    <string name="prod_name">prod name</string>
+    <string name="_249_review">249 Review</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_driver_home">DriverHome</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>

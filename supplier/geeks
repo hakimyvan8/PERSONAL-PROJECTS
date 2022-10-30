@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>GeeksforGeeks</h1>
+	<h2>HTML option Tag</h2>
+	<select>
+		<!-- option tag starts -->
+			<option>Choose an option</option>
+			<option value="html">HTML</option>
+			<option value="java">JAVA</option>
+			<option value="C++">C++</option>
+			<option value="php">PHP</option>
+			<option value="perl">PERL</option>
+		<!-- option tag ends -->
+		</select>
+</body>
+</html>

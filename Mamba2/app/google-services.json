@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "872940582106",
+    "project_id": "mamba-c8932",
+    "storage_bucket": "mamba-c8932.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872940582106:android:4ac18eadcea781b6eb21e3",
+        "android_client_info": {
+          "package_name": "com.igor.mamba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872940582106-a19f6q9vackt6ks9roetq28kfbk8nuoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ3NjUjEOLVpNCUrcB_XpGV7TiDEudpDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872940582106-a19f6q9vackt6ks9roetq28kfbk8nuoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
