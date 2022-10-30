@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/shape_rect03"
+    android:padding="10dp">
+    <ImageButton
+        android:id="@+id/backBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:src="@drawable/ic_arrow_orange"/>
+    <ImageButton
+        android:id="@+id/deleteBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:src="@drawable/ic_delete"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+    <ImageButton
+        android:id="@+id/editBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:src="@drawable/ic_edit"
+        android:layout_toStartOf="@+id/deleteBtn"
+        android:layout_toLeftOf="@+id/deleteBtn" />
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text="@string/product_details"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+</RelativeLayout>
+
+    <ImageView
+        android:id="@+id/productIconIv"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_cart2"
+        android:padding="5dp"
+        android:adjustViewBounds="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/productIconIv"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/discountNoteTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rect06"
+            android:padding="5dp"
+            android:textSize="10sp"
+            android:text="10% OFF"
+            android:paddingEnd="5dp"
+            android:textColor="@color/green"
+            android:paddingRight="5dp" />
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/the_product_title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/descriptionTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/product_description"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/categoryTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/product_category"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/quantityTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/product_quantity"
+            android:textColor="@color/colorPrimary"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/discountPriceTv"
+                android:layout_width="37dp"
+                android:layout_height="wrap_content"
+                android:text="$10"
+                android:padding="5dp"
+                android:textColor="@color/grey" />
+
+            <TextView
+                android:id="@+id/originalPriceTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/discountPriceTv"
+                android:layout_toRightOf="@+id/discountPriceTv"
+                android:text="$15"
+                android:padding="5dp"
+                android:textColor="@color/grey" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

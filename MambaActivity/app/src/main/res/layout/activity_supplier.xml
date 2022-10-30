@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SupplierActivity">
+
+
+
+    <!--Toolbar-->
+    <RelativeLayout
+        android:id="@+id/rel2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/loginAv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:layout_alignParentBottom="true"
+            android:text="Supplier Login"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="start" />
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/scrollTv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rel2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/supplierId"
+                android:hint="Supplier ID"
+                android:padding="10dp"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="5dp"
+                android:layout_width="match_parent"
+                android:inputType="textEmailAddress"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape_rect02"
+                android:drawableLeft="@drawable/ic_email" />
+
+            <EditText
+                android:id="@+id/passwordEt"
+                android:layout_below="@+id/supplierId"
+                android:hint="Password"
+                android:padding="10dp"
+                android:drawableStart="@drawable/ic_open"
+                android:drawablePadding="5dp"
+                android:layout_width="match_parent"
+                android:inputType="textPassword"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape_rect02"
+                android:drawableLeft="@drawable/ic_email" />
+
+            <TextView
+                android:id="@+id/forgotTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Forgot Password?"
+                android:layout_below="@+id/passwordEt"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true" />
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="256dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/forgotTv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:minWidth="120dp"
+                android:text="Login"
+                android:textColor="@color/colorAccent" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

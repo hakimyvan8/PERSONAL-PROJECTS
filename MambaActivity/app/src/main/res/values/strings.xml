@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MambaActivity</string>
+    <string name="are_you_a_seller_register_as_a_seller">Are you a Seller? Register as a Seller</string>
+    <string name="update">Update</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="full_name">Full Name</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="delivery_fee">Delivery Fee</string>
+    <string name="title">Title</string>
+    <string name="category">Category</string>
+    <string name="quantity_e_g_kg_g_etc">Quantity e.g. Kg, g etc.</string>
+    <string name="price">Price</string>
+    <string name="discount">Discount</string>
+    <string name="discount_price">Discount Price</string>
+    <string name="register">Register</string>
+    <string name="add_product">Add Product</string>
+    <string name="discount_note_e_g_10_off">Discount Note e.g. 10% Off</string>
+    <string name="product_details">Product Details</string>
+    <string name="the_product_title">The Product Title</string>
+    <string name="description">Description</string>
+    <string name="product_description">Product Description</string>
+    <string name="product_category">Product Category</string>
+    <string name="product_quantity">Product Quantity</string>
+    <string name="update_product">Update Product</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="closed">Closed</string>
+    <string name="phone">Phone</string>
+    <string name="shop_name">Shop Name</string>
+    <string name="order_details">Order Details</string>
+    <string name="write_review">Write Review</string>
+</resources>

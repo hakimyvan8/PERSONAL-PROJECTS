@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "23676832894",
+    "firebase_url": "https://mambaactivity.firebaseio.com",
+    "project_id": "mambaactivity",
+    "storage_bucket": "mambaactivity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23676832894:android:fe98da194d0ae41f0c1c2f",
+        "android_client_info": {
+          "package_name": "com.example.mambaactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23676832894-47cfucdlrpccc0i92q5n13i8r6nca129.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mambaactivity",
+            "certificate_hash": "7d45fa5b311a7f02c93502c5a0361512344f31a6"
+          }
+        },
+        {
+          "client_id": "23676832894-i9bdsut3milindk7kpp33gljao5rbesq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsvahD_as6wBnKi92L-M8M0uXF-4nXNYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23676832894-i9bdsut3milindk7kpp33gljao5rbesq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
